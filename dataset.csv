@@ -1,0 +1,26 @@
+
+questions, answers
+"Hei", "Hei!"
+"Hello", "Hello!"
+"Hey", "Hey!"
+"What is my current state of posture?", "Hey!" # We have to get data from MPU
+"Is my posture good?", "" # We have to get data from MPU
+"Is my posture bad?", "" # We have to get data from MPU
+"How can i improve my posture?", "Going for a walk, doing some stretches and training your back are all methods for bettering youre posture!"
+"Give me a status of my posture over time.", "" # We have to get data from MPU + matplotlib
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
+"Hey", "Hey!"
