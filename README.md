@@ -1,32 +1,60 @@
 
-#### HAPose
+# HAPose
 ### Readme - file
 
-## In file explorer
-### 1. Make sure you have downloaded the model file to your fileexplorer
-###    -  (The model is to big to be added to the repository, has to be shared with a memory stick)
-###    -  (The model is to large to be added to the repository, has to be shared with a memory stick)
-### 3. Make sure you have an MRI Scan you want to diagnose in your fileexplorer
-### 2. Make sure that you have a folder including these files:
-###     -  The model (best_model.keras)
-###     -  translated_data.py
-###     -  VitalScan_app.py
-
-## Running the program
-### 1. Install tensorflow:
+&nbsp;
+## Virtual environment
+#### 1. Create your virtual environment
 ```bash
-pip install tensorflow
+python -m venv venv
+````
+#### 2. Activate your virtual environment
+##### Windows:
+```bash
+venv\Scripts\activate
+````
+##### Mac/Linux:
+```bash
+source venv/bin/activate
+````
+
+&nbsp;
+## Programs that need to be installed before running the program:
+#### (Make sure that these are installed inside the venv)
+#### 1. Torch
+```bash
+pip install torch
+````
+#### 2. Torch Transformers
+```bash
+pip install torch transformers
+````
+#### 3. Pandas
+```bash
+pip install pandas
+````
+#### 4. Pyserial
+```bash
+pip install pyserial
+````
+#### 5. Matplotlib
+```bash
+pip install matplotlib
+````
+#### 6. Tkinter
+##### Tkinter is already installed in Python on Windows and Mac
+##### If Linux is being used install Tkinter with this line:
+```bash
+sudo apt install python3-tk
 ```
-### 2. Simply run the program with the "run" button or simply in the turminal
-###     -  In the terminal:
-      ```bash
-      python VitalScan_app.py
-      ```
-# VITALScan - How to use the program
+&nbsp;
+## Demo vs. actual vest
+#### The program runs in a demo format; the reasoning for this is that the values from the code are imported from the actual vest. 
+#### This cannot be done without wearing the actual vest.
+#### The code instead uses makeshift values that represent the ones that would be extracted from the vest, so that you get a replica of how the application will work when using the actual vest.
+#### If you want to run the program with the actual vest:
+##### Set the demo_game to false:
+###### (This is in line 6 in the main.py file)
 
----
 
-## Inputs
-### 1. Write the name of your patient 
-### 2. Write the date of the procedure
-## The model
+
