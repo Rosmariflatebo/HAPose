@@ -21,6 +21,7 @@ source venv/bin/activate
 &nbsp;
 ## Programs that need to be installed before running the program:
 #### (Make sure that these are installed inside the venv)
+#### If any program recommends upgrading any of the software, so as such.
 #### 1. Torch
 ```bash
 pip install torch
@@ -47,6 +48,15 @@ pip install matplotlib
 ```bash
 sudo apt install python3-tk
 ```
+&nbsp;
+## Running the code
+#### Run the code from the main.py file
+#### Press the "play" button in the top right of the screen (python)
+#### Or run the code directly in the terminal:
+```bash
+python main.py
+```
+
 &nbsp;
 ## Demo vs. actual vest
 #### The program runs in a demo format; the reasoning for this is that the values from the code are imported from the actual vest. 
