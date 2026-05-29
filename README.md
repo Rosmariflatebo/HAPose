@@ -1,6 +1,6 @@
 
 # HAPose
-### Readme - file
+### Instructions for running the program
 
 &nbsp;
 ## Virtual environment
